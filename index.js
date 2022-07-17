@@ -68,7 +68,7 @@ var questions = [
       ];
 
 var userName = readlineSync.question("Enter Your Name: ");
-console.log("Welcome" + userName + " To Marvel Quiz ");
+console.log("Welcome " + userName + " To Marvel Quiz ");
 for(var i=0; i<questions.length; i++)
 {
   play(questions[i].question,questions[i].answer);
